@@ -22,7 +22,7 @@ h1 {
 .current-weather {
     position: fixed;
   justify-content: space-between;
-  margin: 2px 20px 50px 20px;
+  margin: 10px 20px 50px 20px;
 }
 .current-temperature {
   font-size: 60px;
@@ -43,7 +43,7 @@ footer p {
 .weather-application {
   background: #d8d7d7;
   border: 1px solid #ddeedf;
-  border-radius: 250px;
+  border-radius: 20px;
   box-shadow: #e7eaf6;
   max-width: 600px;
   margin: 50px auto;
