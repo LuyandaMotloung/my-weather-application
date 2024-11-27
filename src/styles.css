@@ -1,0 +1,63 @@
+.city {
+  border: 1px solid #e7eaf6;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 18px;
+  background: #ffffff;
+  margin: 20px 10px;
+  width: 70%;
+}
+.results {
+  background: #f70776;
+  border: 1px solid #f70776;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 18px;
+}
+h1 {
+  font-family:  "Noto Sans JP", sans-serif;
+  font-size: 45px;
+}
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px 55px 20px;
+}
+.current-temperature {
+ font-size: 60px;
+ line-height: 60px;
+ font-family:  "Noto Sans JP", sans-serif;
+
+}
+footer p {
+  color: #393e46;
+  text-align: center;
+}
+.current-weather strong {
+  color: #680747;
+}
+.current-weather p {
+  color: #5c715e;
+  font-size: 18px;
+}
+.weather-application {
+  background: #d8d7d7;
+  border: 1px solid #ddeedf;
+  border-radius: 10px;
+  box-shadow: #e7eaf6;
+}
+a {
+  color: #f70776;
+}
+.temperature-container{
+  display:flex;
+}
+.weather-icon{
+  width: 80px;
+  height: 80px;
+}
+.unit{
+  margin-top: 6px;
+  font-size: 28px;
+}
