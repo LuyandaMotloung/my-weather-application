@@ -16,19 +16,21 @@
   padding: 18px;
 }
 h1 {
-  font-family:  "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 45px;
 }
 .current-weather {
   display: flex;
   justify-content: space-between;
-  margin: 10px 10px 55px 20px;
+  margin: 50px auto;
+  width: 800px;
+  padding: 20px;
+  border-radius: 30px;
 }
 .current-temperature {
- font-size: 60px;
- line-height: 60px;
- font-family:  "Noto Sans JP", sans-serif;
-
+  font-size: 60px;
+  line-height: 60px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 footer p {
   color: #393e46;
@@ -50,14 +52,14 @@ footer p {
 a {
   color: #f70776;
 }
-.temperature-container{
-  display:flex;
+.temperature-container {
+  display: flex;
 }
-.weather-icon{
+.weather-icon {
   width: 80px;
   height: 80px;
 }
-.unit{
+.unit {
   margin-top: 6px;
   font-size: 28px;
 }
