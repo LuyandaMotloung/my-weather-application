@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prociono&display=swap"
+      rel="stylesheet"
+    />
+    <title>My weather application</title>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="weather-application">
+      <header>
+        <form>
+          <input
+            type="search"
+            class="city"
+            placeholder="Enter a city.."
+            required
+          />
+          <input type="submit" class="results" value="Search" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1>Paris</h1>
+            <p>
+              <span id="current-day">Saturday 15:32 </span> ,
+              <span id="description"> moderate rain </span>
+              <br />
+              Humidity: <strong id="humidity">87%</strong>, Wind:
+              <strong id="speed">7.2km/h</strong>
+            </p>
+          </div>
+          <div class="temperature-container">
+            <div class="weather-icon">☀️</div>
+            <div class="current-temperature">14</div>
+            <div class="unit">°C</div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank">Luyanda Motloung</a> and is
+          <a href="#" target="_blank"> on GitHub</a> and
+          <a href="#" target="_blank">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
