@@ -1,64 +1,112 @@
-.city {
+.search-input {
   border: 1px solid #e7eaf6;
-  border-radius: 8px;
+  border-radius: 6px;
   font-size: 18px;
-  padding: 18px;
+  padding: 15px;
   background: #ffffff;
-  margin: 20px 10px;
-  width: 70%;
+  width: 75%;
+  margin: 25px 8px 20px 25px;
 }
 .results {
   background: #f70776;
   border: 1px solid #f70776;
-  border-radius: 8px;
+  border-radius: 6px;
   color: #ffffff;
   font-size: 16px;
-  padding: 18px;
+  padding: 15px;
+  margin: 25px 5px;
 }
 h1 {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 45px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 .current-weather {
   display: flex;
   justify-content: space-between;
-  margin: 10px 20px 50px 20px;
+  margin-left: 20px;
+}
+.current-weather p {
+  margin-left: 20px;
 }
 .current-temperature {
-  font-size: 60px;
+  font-size: 62px;
   line-height: 60px;
   font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
 }
 footer p {
   color: #393e46;
   text-align: center;
 }
 .current-weather strong {
-  color: #680747;
+  color: #7a2a5f;
 }
 .current-weather p {
-  color: #5c715e;
+  color: #074835;
   font-size: 18px;
 }
 .weather-application {
-  background: #d8d7d7;
-  border: 1px solid #ddeedf;
-  border-radius: 20px;
-  box-shadow: #e7eaf6;
-  max-width: 550px;
+  background: rgba(210, 182, 182, 0.3);
+  border: 2px solid rgba(210, 182, 182, 0);
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px 5px#393e46;
+  max-width: 700px;
   margin: 50px auto;
+  margin-top: 70px;
 }
 a {
   color: #f70776;
 }
 .temperature-container {
   display: flex;
+  margin-right: 35px;
 }
 .weather-icon {
-  width: 80px;
-  height: 80px;
+  width: 86px;
+  height: 86px;
+  font-size: 60px;
+  margin-top: 6px;
 }
 .unit {
-  margin-top: 6px;
+  margin-top: 25px;
   font-size: 28px;
+}
+.date {
+  color: #074835;
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+}
+.icon {
+  text-align: center;
+  font-size: 15px;
+}
+.temperatures {
+  color: #0c503b;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.temperature {
+  padding: 8px;
+}
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+  margin-top: 35px;
+}
+body {
+  background-image: url("https://plus.unsplash.com/premium_photo-1667143324668-064f130f731d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHdlYXRoZXJ8ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  background-position: center top;
+}
+hr {
+  width: 90%;
+  border-color: rgba(210, 182, 182, 0.2);
 }

@@ -14,15 +14,17 @@
   <body>
     <div class="weather-application">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
-            class="city"
+            class="search-input"
+            id="search-input"
             placeholder="Enter a city.."
             required
           />
           <input type="submit" class="results" value="Search" />
         </form>
+        <hr />
       </header>
       <main>
         <div class="current-weather">
@@ -30,25 +32,39 @@
             <h1>Paris</h1>
             <p>
               <span id="current-day">Saturday 15:32 </span> ,
-              <span id="description"> moderate rain </span>
+              <span id="description"> Moderate rain </span>
               <br />
               Humidity: <strong id="humidity">87%</strong>, Wind:
               <strong id="speed">7.2km/h</strong>
             </p>
           </div>
           <div class="temperature-container">
-            <div class="weather-icon">☀️</div>
+            <div class="weather-icon">🌥️</div>
             <div class="current-temperature">14</div>
             <div class="unit">°C</div>
           </div>
         </div>
+        <div class="weather-forecast" id="forecast"></div>
       </main>
       <footer>
         <p>
           This project was coded by
-          <a href="https://github.com/LuyandaMotloung" target="_blank">Luyanda Motloung</a> and is
-          <a href="https://github.com/LuyandaMotloung/my-weather-application" target="_blank"> on GitHub</a> and
-          <a href="https://splendorous-bonbon-ef1b3e.netlify.app/" target="_blank">hosted on Netlify</a>
+          <a href="https://github.com/LuyandaMotloung" target="_blank"
+            >Luyanda Motloung</a
+          >
+          and is
+          <a
+            href="https://github.com/LuyandaMotloung/my-weather-application"
+            target="_blank"
+          >
+            on GitHub</a
+          >
+          and
+          <a
+            href="https://splendorous-bonbon-ef1b3e.netlify.app/"
+            target="_blank"
+            >hosted on Netlify</a
+          >
         </p>
       </footer>
     </div>
